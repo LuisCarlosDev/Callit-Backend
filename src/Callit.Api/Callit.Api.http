@@ -1,0 +1,6 @@
+@Callit.Api_HostAddress = http://localhost:5252
+
+GET {{Callit.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

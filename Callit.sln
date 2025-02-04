@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E601EBBB-E06D-4310-882C-E2188AE07717}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{540DC5B8-1AF8-4AD8-A769-20651F4A1115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Callit.Api", "src\Callit.Api\Callit.Api.csproj", "{7C23F3D2-C53B-44C5-8DDF-CEED318CA386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Callit.Application", "src\Callit.Application\Callit.Application.csproj", "{FDE1E3AD-5360-4E16-9C35-C58E739802ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Callit.Communication", "src\Callit.Communication\Callit.Communication.csproj", "{3E3EB22C-03D5-4343-8A4C-B7AF82BF7594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Callit.Domain", "src\Callit.Domain\Callit.Domain.csproj", "{D85AF1BE-3483-4302-BC11-FDD09A0A5A0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Callit.Exception", "src\Callit.Exception\Callit.Exception.csproj", "{3A887226-4C29-472A-9D27-95495E67B53D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Callit.Infrastructure", "src\Callit.Infrastructure\Callit.Infrastructure.csproj", "{E3F15241-448E-4085-9579-E790A8433F32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C23F3D2-C53B-44C5-8DDF-CEED318CA386} = {E601EBBB-E06D-4310-882C-E2188AE07717}
+		{FDE1E3AD-5360-4E16-9C35-C58E739802ED} = {E601EBBB-E06D-4310-882C-E2188AE07717}
+		{3E3EB22C-03D5-4343-8A4C-B7AF82BF7594} = {E601EBBB-E06D-4310-882C-E2188AE07717}
+		{D85AF1BE-3483-4302-BC11-FDD09A0A5A0F} = {E601EBBB-E06D-4310-882C-E2188AE07717}
+		{3A887226-4C29-472A-9D27-95495E67B53D} = {E601EBBB-E06D-4310-882C-E2188AE07717}
+		{E3F15241-448E-4085-9579-E790A8433F32} = {E601EBBB-E06D-4310-882C-E2188AE07717}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C23F3D2-C53B-44C5-8DDF-CEED318CA386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C23F3D2-C53B-44C5-8DDF-CEED318CA386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C23F3D2-C53B-44C5-8DDF-CEED318CA386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C23F3D2-C53B-44C5-8DDF-CEED318CA386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE1E3AD-5360-4E16-9C35-C58E739802ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE1E3AD-5360-4E16-9C35-C58E739802ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE1E3AD-5360-4E16-9C35-C58E739802ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE1E3AD-5360-4E16-9C35-C58E739802ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3EB22C-03D5-4343-8A4C-B7AF82BF7594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3EB22C-03D5-4343-8A4C-B7AF82BF7594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3EB22C-03D5-4343-8A4C-B7AF82BF7594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3EB22C-03D5-4343-8A4C-B7AF82BF7594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85AF1BE-3483-4302-BC11-FDD09A0A5A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85AF1BE-3483-4302-BC11-FDD09A0A5A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85AF1BE-3483-4302-BC11-FDD09A0A5A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85AF1BE-3483-4302-BC11-FDD09A0A5A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A887226-4C29-472A-9D27-95495E67B53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A887226-4C29-472A-9D27-95495E67B53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A887226-4C29-472A-9D27-95495E67B53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A887226-4C29-472A-9D27-95495E67B53D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F15241-448E-4085-9579-E790A8433F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F15241-448E-4085-9579-E790A8433F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F15241-448E-4085-9579-E790A8433F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F15241-448E-4085-9579-E790A8433F32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "12F9vIkztr7t3XM1zXzGp+74ZkLRxm0/VKwbrk/KPP4=",
+  "Source": "Callit.Api",
+  "BasePath": "_content/Callit.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
