@@ -1,5 +1,6 @@
 ﻿using Callit.Domain.Repositories;
 using Callit.Domain.Repositories.Tickets;
+using Callit.Domain.Security.BCrypt;
 using Callit.Infrastructure.DataAccess;
 using Callit.Infrastructure.DataAccess.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,8 @@ public static class DependencyInjectionExtension
 	{
 		AddRepositories(services);
 		AddDbContext(services, configuration);
+
+		services.AddScoped<IPasswordEncripter, Security.BCrypt>();
 	}
 
 	private static void AddRepositories(IServiceCollection services)

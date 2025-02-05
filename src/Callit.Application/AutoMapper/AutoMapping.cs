@@ -16,6 +16,11 @@ public class AutoMapping : Profile
 	private void RequestToEntity()
 	{
 		CreateMap<RequestTicketJson, Ticket>();
+		CreateMap<RequestUserJson, User>()
+			.ForMember(
+				dest => dest.Password,
+				config => config.Ignore()
+				);
 	}
 
 	private void EntityToResponse()
@@ -23,6 +28,5 @@ public class AutoMapping : Profile
 		CreateMap<Ticket, ResponseCreatedTicketJson>();
 		CreateMap<Ticket, ResponseShortTicketJson>();
 		CreateMap<Ticket, ResponseTicketJson>();
-		CreateMap<User, ResponseCreatedUserJson>();
 	}
 }
