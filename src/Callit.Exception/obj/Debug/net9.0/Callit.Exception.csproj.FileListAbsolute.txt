@@ -11,3 +11,4 @@ C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Exception\obj\Debug\net9.0\Ca
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Exception\obj\Debug\net9.0\ref\Callit.Exception.dll
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.ExceptionBase.ResourceErrorMessages.resources
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.csproj.GenerateResource.cache
+C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.sourcelink.json

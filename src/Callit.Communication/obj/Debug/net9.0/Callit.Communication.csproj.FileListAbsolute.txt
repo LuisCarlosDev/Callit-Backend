@@ -9,3 +9,4 @@ C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Communication\obj\Debug\net9.
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Communication\obj\Debug\net9.0\refint\Callit.Communication.dll
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Communication\obj\Debug\net9.0\Callit.Communication.pdb
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Communication\obj\Debug\net9.0\ref\Callit.Communication.dll
+C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Communication\obj\Debug\net9.0\Callit.Communication.sourcelink.json

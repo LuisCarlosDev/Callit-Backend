@@ -13,3 +13,4 @@ C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Infrastructure\obj\Debug\net9
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Infrastructure\obj\Debug\net9.0\refint\Callit.Infrastructure.dll
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Infrastructure\obj\Debug\net9.0\Callit.Infrastructure.pdb
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Infrastructure\obj\Debug\net9.0\ref\Callit.Infrastructure.dll
+C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Infrastructure\obj\Debug\net9.0\Callit.Infrastructure.sourcelink.json

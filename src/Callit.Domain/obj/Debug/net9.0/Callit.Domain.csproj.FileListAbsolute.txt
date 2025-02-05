@@ -9,3 +9,4 @@ C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Domain\obj\Debug\net9.0\Calli
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Domain\obj\Debug\net9.0\refint\Callit.Domain.dll
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Domain\obj\Debug\net9.0\Callit.Domain.pdb
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Domain\obj\Debug\net9.0\ref\Callit.Domain.dll
+C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Domain\obj\Debug\net9.0\Callit.Domain.sourcelink.json

@@ -9,5 +9,5 @@ public class RequestTicketJson
 	public TicketStatus Status { get; set; } = TicketStatus.Waiting;
 	public Priority Priority { get; set; }
 	public DateTime Date { get; set;}
-	
+	public string System { get; set; } = string.Empty; 
 }
