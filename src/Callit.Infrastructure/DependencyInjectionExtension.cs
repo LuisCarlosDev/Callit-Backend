@@ -1,5 +1,6 @@
 ﻿using Callit.Domain.Repositories;
 using Callit.Domain.Repositories.Tickets;
+using Callit.Domain.Repositories.Users;
 using Callit.Domain.Security.BCrypt;
 using Callit.Infrastructure.DataAccess;
 using Callit.Infrastructure.DataAccess.Repositories;
@@ -23,6 +24,7 @@ public static class DependencyInjectionExtension
 	{
 		services.AddScoped<IUnitOfWork, UnitOfWork>();
 		services.AddScoped<ITicketRepository, TicketRepository>();
+		services.AddScoped<IUserRepository, UserRepository>();
 	}
 	
 	private static void AddDbContext(IServiceCollection services, IConfiguration configuration)

@@ -7,6 +7,7 @@ using Callit.Domain.Repositories;
 using Callit.Domain.Repositories.Users;
 using Callit.Domain.Security.BCrypt;
 using Callit.Exception.ExceptionBase;
+using FluentValidation.Results;
 
 namespace Callit.Application.UseCases.Users.CreateUser;
 
@@ -19,7 +20,8 @@ public class CreateUserUseCase : ICreateUserUseCase
 	
 	public CreateUserUseCase(
 		IUserRepository userRepository, 
-		IMapper mapper, IUnitOfWork unitOfWork, 
+		IMapper mapper, 
+		IUnitOfWork unitOfWork, 
 		IPasswordEncripter passwordEncripter
 		)
 	{
@@ -31,23 +33,32 @@ public class CreateUserUseCase : ICreateUserUseCase
 	
 	public async Task<ResponseCreatedUserJson> Execute(RequestUserJson request)
 	{
-		Validate(request);
+		await Validate(request);
 		
 		var user = _mapper.Map<User>(request);
 		user.Password = _passwordEncripter.Encrypt(request.Password);
+		user.UserIdentifier = Guid.Empty;
 
 		await _userRepository.CreateUser(user);
 		await _unitOfWork.Commit();
-		
-		return _mapper.Map<ResponseCreatedUserJson>(user);
+
+		return new ResponseCreatedUserJson
+		{
+			Name = user.Name,
+		};
 	}
 
 
-	private void Validate(RequestUserJson request)
+	private async Task Validate(RequestUserJson request)
 	{
-		var validator = new CreateUserValidator();
+		var result = new CreateUserValidator().Validate(request);
+		
+		var userAlreadyExists = await _userRepository.UserAlreadyExists(request.Email);
 
-		var result = validator.Validate(request);
+		if (userAlreadyExists)
+		{
+			result.Errors.Add(new ValidationFailure(string.Empty, "Email already exists"));
+		}
 
 		if (result.IsValid == false)
 		{
