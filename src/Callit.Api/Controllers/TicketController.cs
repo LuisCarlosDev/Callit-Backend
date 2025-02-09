@@ -5,12 +5,14 @@ using Callit.Application.UseCases.Tickets.ListTickets;
 using Callit.Application.UseCases.Tickets.UpdateTicket;
 using Callit.Communication.Requests;
 using Callit.Communication.Responses;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Callit.Api.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class TicketController: ControllerBase {
 	[HttpPost]
 	[ProducesResponseType(typeof(ResponseCreatedTicketJson), StatusCodes.Status201Created)]

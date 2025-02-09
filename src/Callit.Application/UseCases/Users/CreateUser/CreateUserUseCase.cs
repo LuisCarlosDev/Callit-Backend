@@ -6,6 +6,7 @@ using Callit.Domain.Entities;
 using Callit.Domain.Repositories;
 using Callit.Domain.Repositories.Users;
 using Callit.Domain.Security.BCrypt;
+using Callit.Domain.Security.Tokens;
 using Callit.Exception.ExceptionBase;
 using FluentValidation.Results;
 
@@ -17,18 +18,20 @@ public class CreateUserUseCase : ICreateUserUseCase
 	private readonly IMapper _mapper;
 	private readonly IUnitOfWork _unitOfWork;
 	private readonly IPasswordEncripter _passwordEncripter;
-	
+	private readonly IAccessTokenGenerator _tokenGenerator;
 	public CreateUserUseCase(
 		IUserRepository userRepository, 
 		IMapper mapper, 
 		IUnitOfWork unitOfWork, 
-		IPasswordEncripter passwordEncripter
+		IPasswordEncripter passwordEncripter,
+		IAccessTokenGenerator tokenGenerator
 		)
 	{
 		_userRepository = userRepository;
 		_mapper = mapper;
 		_unitOfWork = unitOfWork;
 		_passwordEncripter = passwordEncripter;
+		_tokenGenerator = tokenGenerator;
 	}
 	
 	public async Task<ResponseCreatedUserJson> Execute(RequestUserJson request)
@@ -37,7 +40,7 @@ public class CreateUserUseCase : ICreateUserUseCase
 		
 		var user = _mapper.Map<User>(request);
 		user.Password = _passwordEncripter.Encrypt(request.Password);
-		user.UserIdentifier = Guid.Empty;
+		user.UserIdentifier = Guid.NewGuid();
 
 		await _userRepository.CreateUser(user);
 		await _unitOfWork.Commit();
@@ -45,6 +48,7 @@ public class CreateUserUseCase : ICreateUserUseCase
 		return new ResponseCreatedUserJson
 		{
 			Name = user.Name,
+			Token = _tokenGenerator.GenerateAccessToken(user)
 		};
 	}
 

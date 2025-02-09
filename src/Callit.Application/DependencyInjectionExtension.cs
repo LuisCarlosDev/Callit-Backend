@@ -1,4 +1,5 @@
 ﻿using Callit.Application.AutoMapper;
+using Callit.Application.UseCases.SingIn.SignInUser;
 using Callit.Application.UseCases.Tickets.CreateTicket;
 using Callit.Application.UseCases.Tickets.DeleteTicket;
 using Callit.Application.UseCases.Tickets.ListTicketById;
@@ -30,5 +31,6 @@ public static class DependencyInjectionExtension
 		services.AddScoped<IDeleteTicketUseCase, DeleteTicketUseCase>();
 		services.AddScoped<IUpdateTicketUseCase, UpdateTicketUseCase>();
 		services.AddScoped<ICreateUserUseCase, CreateUserUseCase>();
+		services.AddScoped<ISignInUserUseCase, SignInUserUseCase>();
 	}
 }

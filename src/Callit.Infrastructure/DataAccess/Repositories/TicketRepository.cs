@@ -17,38 +17,26 @@ internal class TicketRepository : ITicketRepository
 		await _dbContext.Tickets.AddAsync(ticket);
 	}
 
-	public async Task<List<Ticket>> GetTickets()
+	public async Task<List<Ticket>> GetTickets(User user)
 	{
-		return await _dbContext.Tickets.AsNoTracking().ToListAsync();
+		return await _dbContext.Tickets.AsNoTracking().Where(ticket => ticket.UserId == user.Id).ToListAsync();
 	}
 
-	public async Task<Ticket?> GetTicketById(Guid id)
+	public async Task<Ticket?> GetTicketById(Guid id, User user)
 	{
-		 return await _dbContext.Tickets.AsNoTracking().FirstOrDefaultAsync(ticket => ticket.Id == id);
+		 return await _dbContext.Tickets.AsNoTracking().FirstOrDefaultAsync(ticket => ticket.Id == id && user.Id == ticket.UserId);
 	}
 
-	public async Task<bool> DeleteTicket(Guid id)
+	public async Task DeleteTicket(Guid id)
 	{
-		var ticket = await _dbContext.Tickets.FirstOrDefaultAsync(ticket => ticket.Id == id);
+		var ticket = await _dbContext.Tickets.FindAsync(id);
 
-		if (ticket is null)
-		{
-			return false;
-		}
-		
-		_dbContext.Tickets.Remove(ticket);
-		
-		return true;
+		_dbContext.Tickets.Remove(ticket!);
 	}
 
-	/// <summary>
-	/// It will only be used in case of any change in the entity.
-	/// </summary>
-	/// <param name="id"></param>
-	/// <returns></returns>
-	public async Task<Ticket?> SearchTicketById(Guid id)
+	public async Task<Ticket?> SearchTicketById(Guid id, User user)
 	{
-		return await _dbContext.Tickets.FirstOrDefaultAsync(ticket => ticket.Id == id);
+		return await _dbContext.Tickets.FirstOrDefaultAsync(ticket => ticket.Id == id && ticket.UserId == user.Id);
 	}
 
 	public void UpdateTicket(Ticket ticket)

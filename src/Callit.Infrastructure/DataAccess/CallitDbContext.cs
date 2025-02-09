@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Callit.Infrastructure.DataAccess;
 
-internal class CallitDbContext : DbContext
+public class CallitDbContext : DbContext
 {
 	
 	public CallitDbContext(DbContextOptions<CallitDbContext> options): base(options) { }
