@@ -13,6 +13,11 @@ internal class UserRepository : IUserRepository
 		_dbContext = dbContext;
 	}
 
+	public async Task<List<User>> ListUsers()
+	{
+		return await _dbContext.Users.AsNoTracking().ToListAsync();
+	}
+
 	public async Task CreateUser(User user)
 	{
 		await _dbContext.Users.AddAsync(user);

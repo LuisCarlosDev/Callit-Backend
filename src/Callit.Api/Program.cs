@@ -72,7 +72,17 @@ builder.Services.AddAuthentication(config =>
 builder.Services.AddScoped<ITokenProvider, HttpContextTokenValue>();
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddCors(config =>
+{
+    config.AddPolicy("all", 
+        policy => policy.AllowAnyOrigin()
+            .AllowAnyMethod().
+            AllowAnyHeader());
+});
+
 var app = builder.Build();
+
+app.UseCors("all");
 
 if (app.Environment.IsDevelopment())
 {
@@ -82,6 +92,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 
 app.UseAuthentication();
 app.UseAuthorization();

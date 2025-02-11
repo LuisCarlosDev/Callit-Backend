@@ -9,16 +9,16 @@ namespace Callit.Api.Controllers;
 [ApiController]
 public class SigninController : ControllerBase
 {
-	[HttpPost]
-	[ProducesResponseType(typeof(ResponseCreatedUserJson), StatusCodes.Status200OK)]
-	[ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status401Unauthorized)]
-	public async Task<IActionResult> SignIn(
-		[FromServices] ISignInUserUseCase useCase,
-		[FromBody] RequestSignInJson request
-		)
-	{
-		var user = await useCase.Execute(request);
-		
-		return Ok(user);
-	}
+    [HttpPost]
+    [ProducesResponseType(typeof(ResponseCreatedUserJson), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status401Unauthorized)]
+    public async Task<IActionResult> SignIn(
+        [FromServices] ISignInUserUseCase useCase,
+        [FromBody] RequestSignInJson request
+    )
+    {
+        var user = await useCase.Execute(request);
+
+        return Ok(user);
+    }
 }

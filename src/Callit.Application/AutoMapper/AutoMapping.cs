@@ -28,5 +28,6 @@ public class AutoMapping : Profile
 		CreateMap<Ticket, ResponseCreatedTicketJson>();
 		CreateMap<Ticket, ResponseShortTicketJson>();
 		CreateMap<Ticket, ResponseTicketJson>();
+		CreateMap<User, ResponseUsersJson>();
 	}
 }

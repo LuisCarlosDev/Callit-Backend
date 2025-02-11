@@ -6,6 +6,7 @@ using Callit.Application.UseCases.Tickets.ListTicketById;
 using Callit.Application.UseCases.Tickets.ListTickets;
 using Callit.Application.UseCases.Tickets.UpdateTicket;
 using Callit.Application.UseCases.Users.CreateUser;
+using Callit.Application.UseCases.Users.ListUsers;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Callit.Application;
@@ -32,5 +33,6 @@ public static class DependencyInjectionExtension
 		services.AddScoped<IUpdateTicketUseCase, UpdateTicketUseCase>();
 		services.AddScoped<ICreateUserUseCase, CreateUserUseCase>();
 		services.AddScoped<ISignInUserUseCase, SignInUserUseCase>();
+		services.AddScoped<IListUsersUseCase, ListUsersUseCase>();
 	}
 }
