@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\Callit.Communication.csproj",
+      "projectUniqueName": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\Callit.Communication.csproj",
       "projectName": "Callit.Communication",
-      "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\Callit.Communication.csproj",
+      "projectPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\Callit.Communication.csproj",
       "packagesPath": "C:\\Users\\Luiz Silva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\obj\\",
+      "outputPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luiz Silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,9 +42,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Luiz Silva\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

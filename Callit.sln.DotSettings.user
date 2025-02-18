@@ -7,4 +7,5 @@
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="C:\Users\Luiz Silva\.nuget\packages\bcrypt.net-next\4.0.3\lib\net6.0\BCrypt.Net-Next.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
+	
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=callit/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
