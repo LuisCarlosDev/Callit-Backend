@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4nLL9/ZjcRA=",
+  "dgSpecHash": "wma/RnwJQKg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj",
+  "projectFilePath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luiz Silva\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Luiz Silva\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",

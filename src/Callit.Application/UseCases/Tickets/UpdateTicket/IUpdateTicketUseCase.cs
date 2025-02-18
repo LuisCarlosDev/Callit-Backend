@@ -5,5 +5,5 @@ namespace Callit.Application.UseCases.Tickets.UpdateTicket;
 
 public interface IUpdateTicketUseCase
 {
-	Task Execute(Guid id, RequestTicketJson ticket);
+    Task Execute(Guid id, RequestTicketJson ticket);
 }

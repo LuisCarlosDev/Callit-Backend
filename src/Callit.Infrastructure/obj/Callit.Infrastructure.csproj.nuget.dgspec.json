@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj": {}
+    "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj": {
+    "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj",
         "projectName": "Callit.Domain",
-        "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj",
+        "projectPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj",
         "packagesPath": "C:\\Users\\Luiz Silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\obj\\",
+        "outputPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luiz Silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj": {
+    "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj",
         "projectName": "Callit.Infrastructure",
-        "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj",
+        "projectPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Luiz Silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luiz Silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -85,8 +85,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj": {
-                "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj"
+              "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj": {
+                "projectPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj"
               }
             }
           }
