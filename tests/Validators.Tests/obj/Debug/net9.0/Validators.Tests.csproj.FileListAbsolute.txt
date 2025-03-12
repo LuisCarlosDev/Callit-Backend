@@ -113,3 +113,5 @@ C:\Users\Luiz Silva\dev\projects\Callit\tests\Validators.Tests\obj\Debug\net9.0\
 C:\Users\Luiz Silva\dev\projects\Callit\tests\Validators.Tests\obj\Debug\net9.0\Validators.Tests.pdb
 C:\Users\Luiz Silva\dev\projects\Callit\tests\Validators.Tests\obj\Debug\net9.0\Validators.Tests.genruntimeconfig.cache
 C:\Users\Luiz Silva\dev\projects\Callit\tests\Validators.Tests\obj\Debug\net9.0\ref\Validators.Tests.dll
+c:\Users\Luiz Silva\dev\projects\Callit\tests\Validators.Tests\bin\Debug\net9.0\MediatR.dll
+c:\Users\Luiz Silva\dev\projects\Callit\tests\Validators.Tests\bin\Debug\net9.0\MediatR.Contracts.dll

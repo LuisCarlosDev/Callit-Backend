@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "EXj3U3/hWL4=",
+  "dgSpecHash": "uumPU9Bdfbw=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj",
+  "projectFilePath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luiz Silva\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Luiz Silva\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\Luiz Silva\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Luiz Silva\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Luiz Silva\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.1\\microsoft.extensions.dependencyinjection.9.0.1.nupkg.sha512",
     "C:\\Users\\Luiz Silva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512",
     "C:\\Users\\Luiz Silva\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
