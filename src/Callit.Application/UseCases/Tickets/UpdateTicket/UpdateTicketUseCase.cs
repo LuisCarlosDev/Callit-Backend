@@ -11,53 +11,55 @@ namespace Callit.Application.UseCases.Tickets.UpdateTicket;
 
 public class UpdateTicketUseCase : IUpdateTicketUseCase
 {
-	private readonly IMapper _mapper;
-	private readonly IUnitOfWork _unitOfWork;
-	private readonly ITicketRepository _ticketRepository;
-	private readonly ILoggedUser _loggedUser;
-	
-	public UpdateTicketUseCase(
-		IMapper mapper, 
-		IUnitOfWork unitOfWork, 
-		ITicketRepository ticketRepository, 
-		ILoggedUser loggedUser)
-	{
-		_mapper = mapper;
-		_unitOfWork = unitOfWork;
-		_ticketRepository = ticketRepository;
-		_loggedUser	= loggedUser;
-	}
-	public async Task Execute(Guid id, RequestTicketJson request)
-	{
-		Validate(request);
+    private readonly IMapper _mapper;
+    private readonly IUnitOfWork _unitOfWork;
+    private readonly ITicketRepository _ticketRepository;
+    private readonly ILoggedUser _loggedUser;
 
-		var loggedUser = await _loggedUser.GetUser();
+    public UpdateTicketUseCase(
+        IMapper mapper,
+        IUnitOfWork unitOfWork,
+        ITicketRepository ticketRepository,
+        ILoggedUser loggedUser
+    )
+    {
+        _mapper = mapper;
+        _unitOfWork = unitOfWork;
+        _ticketRepository = ticketRepository;
+        _loggedUser = loggedUser;
+    }
 
-		var ticket = await _ticketRepository.SearchTicketById(id, loggedUser);
+    public async Task Execute(Guid id, RequestTicketJson request)
+    {
+        Validate(request);
 
-		if (ticket is null || ticket.UserId != loggedUser.Id)
-		{
-			throw new NotFoundException("Ticket not found");
-		}
-		
-		_mapper.Map(request, ticket);
-		
-		_ticketRepository.UpdateTicket(ticket);
+        var loggedUser = await _loggedUser.GetUser();
 
-		await _unitOfWork.Commit();
-	}
+        var ticket = await _ticketRepository.SearchTicketById(id, loggedUser);
 
-	private void Validate(RequestTicketJson ticket)
-	{
-		var validator = new TicketValidator();
+        if (ticket is null || ticket.UserId != loggedUser.Id)
+        {
+            throw new NotFoundException("Ticket not found");
+        }
 
-		var result = validator.Validate(ticket);
+        _mapper.Map(request, ticket);
 
-		if (result.IsValid == false)
-		{
-			var errorMessages = result.Errors.Select(x => x.ErrorMessage).ToList();
+        _ticketRepository.UpdateTicket(ticket);
 
-			throw new ErrorOnValidationException(errorMessages);
-		}
-	}
+        await _unitOfWork.Commit();
+    }
+
+    private void Validate(RequestTicketJson ticket)
+    {
+        var validator = new TicketValidator();
+
+        var result = validator.Validate(ticket);
+
+        if (result.IsValid == false)
+        {
+            var errorMessages = result.Errors.Select(x => x.ErrorMessage).ToList();
+
+            throw new ErrorOnValidationException(errorMessages);
+        }
+    }
 }

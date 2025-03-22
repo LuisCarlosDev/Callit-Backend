@@ -3,6 +3,7 @@ using FluentValidation;
 using FluentValidation.Validators;
 
 namespace Callit.Application.UseCases.Users;
+
 public partial class PasswordValidator<T> : PropertyValidator<T, string>
 {
     private const string ERROR_MESSAGE_KEY = "ErrorMessage";
@@ -24,7 +25,10 @@ public partial class PasswordValidator<T> : PropertyValidator<T, string>
 
         if (password.Length < 6)
         {
-            context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, "Your password must contain at least 6 characters");
+            context.MessageFormatter.AppendArgument(
+                ERROR_MESSAGE_KEY,
+                "Your password must contain at least 6 characters"
+            );
             return false;
         }
 

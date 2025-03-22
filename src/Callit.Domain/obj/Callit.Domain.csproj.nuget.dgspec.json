@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj": {}
+    "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj": {
+    "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj",
         "projectName": "Callit.Domain",
-        "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj",
+        "projectPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj",
         "packagesPath": "C:\\Users\\Luiz Silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\obj\\",
+        "outputPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luiz Silva\\AppData\\Roaming\\NuGet\\NuGet.Config"

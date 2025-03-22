@@ -144,3 +144,15 @@ C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\System.I
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\MediatR.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\MediatR.Contracts.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+c:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Api\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll

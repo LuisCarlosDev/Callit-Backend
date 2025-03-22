@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Callit.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+287753a4020896b048b3311a802f3d5bd160de6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11eb246a5a35f97899e8b908877188f6c68c20fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Callit.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Callit.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

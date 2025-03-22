@@ -416,11 +416,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj",
+      "projectUniqueName": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj",
       "projectName": "Callit.Application",
-      "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj",
+      "projectPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj",
       "packagesPath": "C:\\Users\\Luiz Silva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\obj\\",
+      "outputPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luiz Silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -438,8 +438,8 @@
             "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\Callit.Communication.csproj": {
               "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\Callit.Communication.csproj"
             },
-            "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj": {
-              "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj"
+            "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj": {
+              "projectPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Domain\\Callit.Domain.csproj"
             },
             "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Exception\\Callit.Exception.csproj": {
               "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Exception\\Callit.Exception.csproj"

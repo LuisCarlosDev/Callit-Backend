@@ -5,5 +5,5 @@ namespace Callit.Application.UseCases.SingIn.SignInUser;
 
 public interface ISignInUserUseCase
 {
-	Task<ResponseCreatedUserJson> Execute(RequestSignInJson request);
+    Task<ResponseSignInJson> Execute(RequestSignInJson request);
 }

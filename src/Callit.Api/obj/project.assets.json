@@ -3887,11 +3887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Api\\Callit.Api.csproj",
+      "projectUniqueName": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Api\\Callit.Api.csproj",
       "projectName": "Callit.Api",
-      "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Api\\Callit.Api.csproj",
+      "projectPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Api\\Callit.Api.csproj",
       "packagesPath": "C:\\Users\\Luiz Silva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Api\\obj\\",
+      "outputPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luiz Silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3906,8 +3906,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj": {
-              "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj"
+            "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj": {
+              "projectPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj"
             },
             "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\Callit.Communication.csproj": {
               "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\Callit.Communication.csproj"

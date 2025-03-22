@@ -5,5 +5,5 @@ namespace Callit.Application.UseCases.Tickets.CreateTicket;
 
 public interface ICreateTicketUseCase
 {
-	Task<ResponseCreatedTicketJson> Execute(RequestTicketJson request);
+    Task<ResponseCreatedTicketJson> Execute(RequestTicketJson request);
 }
