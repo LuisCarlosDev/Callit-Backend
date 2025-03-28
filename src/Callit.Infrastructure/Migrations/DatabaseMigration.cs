@@ -6,10 +6,10 @@ namespace Callit.Infrastructure.Migrations;
 
 public static class DatabaseMigration
 {
-	public async static Task MigrateDatabase(IServiceProvider serviceProvider)
-	{
-		var dbContext = serviceProvider.GetRequiredService<CallitDbContext>();
+    public static async Task MigrateDatabase(IServiceProvider serviceProvider)
+    {
+        var dbContext = serviceProvider.GetRequiredService<CallitDbContext>();
 
-		await dbContext.Database.MigrateAsync();
-	}
+        await dbContext.Database.MigrateAsync();
+    }
 }

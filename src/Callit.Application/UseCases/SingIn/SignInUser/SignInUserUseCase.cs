@@ -44,6 +44,7 @@ public class SignInUserUseCase : ISignInUserUseCase
         {
             User = new UserLogged
             {
+                Id = user.Id,
                 Name = user.Name,
                 Email = user.Email,
                 Role = user.Role,

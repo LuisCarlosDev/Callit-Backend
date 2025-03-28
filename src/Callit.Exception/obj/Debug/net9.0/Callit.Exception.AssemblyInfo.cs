@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Callit.Exception")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11eb246a5a35f97899e8b908877188f6c68c20fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1aa23986508dc69922e5544b430b3d7ac67d76ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Callit.Exception")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Callit.Exception")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
