@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wtl31JheYTU=",
+  "dgSpecHash": "SvBxHKWFMH0=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj",
+  "projectFilePath": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Application\\Callit.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luiz Silva\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Luiz Silva\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",

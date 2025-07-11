@@ -10,3 +10,15 @@ C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Domain\obj\Debug\net9.0\refin
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Domain\obj\Debug\net9.0\Callit.Domain.pdb
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Domain\obj\Debug\net9.0\ref\Callit.Domain.dll
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Domain\obj\Debug\net9.0\Callit.Domain.sourcelink.json
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\bin\Debug\net9.0\Callit.Domain.deps.json
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\bin\Debug\net9.0\Callit.Domain.dll
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\bin\Debug\net9.0\Callit.Domain.pdb
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\obj\Debug\net9.0\Callit.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\obj\Debug\net9.0\Callit.Domain.AssemblyInfoInputs.cache
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\obj\Debug\net9.0\Callit.Domain.AssemblyInfo.cs
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\obj\Debug\net9.0\Callit.Domain.csproj.CoreCompileInputs.cache
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\obj\Debug\net9.0\Callit.Domain.sourcelink.json
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\obj\Debug\net9.0\Callit.Domain.dll
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\obj\Debug\net9.0\refint\Callit.Domain.dll
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\obj\Debug\net9.0\Callit.Domain.pdb
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Domain\obj\Debug\net9.0\ref\Callit.Domain.dll

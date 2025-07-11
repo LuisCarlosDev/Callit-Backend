@@ -3882,41 +3882,48 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Luiz Silva\\.nuget\\packages\\": {}
+    "C:\\Users\\Luiz Silva\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Api\\Callit.Api.csproj",
+      "projectUniqueName": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Api\\Callit.Api.csproj",
       "projectName": "Callit.Api",
-      "projectPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Api\\Callit.Api.csproj",
+      "projectPath": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Api\\Callit.Api.csproj",
       "packagesPath": "C:\\Users\\Luiz Silva\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Api\\obj\\",
+      "outputPath": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Luiz Silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Luiz Silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj": {
-              "projectPath": "c:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Application\\Callit.Application.csproj"
+            "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Application\\Callit.Application.csproj": {
+              "projectPath": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Application\\Callit.Application.csproj"
             },
-            "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\Callit.Communication.csproj": {
-              "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Communication\\Callit.Communication.csproj"
+            "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Communication\\Callit.Communication.csproj": {
+              "projectPath": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Communication\\Callit.Communication.csproj"
             },
-            "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Exception\\Callit.Exception.csproj": {
-              "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Exception\\Callit.Exception.csproj"
+            "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\Callit.Exception.csproj": {
+              "projectPath": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\Callit.Exception.csproj"
             },
-            "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Luiz Silva\\dev\\projects\\Callit\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj"
+            "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Infrastructure\\Callit.Infrastructure.csproj"
             }
           }
         }
@@ -3931,7 +3938,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -3975,7 +3982,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,26 +13,26 @@ namespace Callit.Application;
 
 public static class DependencyInjectionExtension
 {
-	public static void AddApplication(this IServiceCollection services)
-	{
-		AddAutoMapper(services);
-		AddUseCases(services);
-	}
+  public static void AddApplication(this IServiceCollection services)
+  {
+    AddAutoMapper(services);
+    AddUseCases(services);
+  }
 
-	private static void AddAutoMapper(IServiceCollection services)
-	{
-		services.AddAutoMapper(typeof(AutoMapping));
-	}
+  private static void AddAutoMapper(IServiceCollection services)
+  {
+    services.AddAutoMapper(typeof(AutoMapping));
+  }
 
-	private static void AddUseCases(this IServiceCollection services)
-	{
-		services.AddScoped<ICreateTicketUseCase, CreateTicketUseCase>();
-		services.AddScoped<IListTicketsUseCase, ListTicketsUseCase>();
-		services.AddScoped<IListTicketByIdUseCase, ListTicketByIdUseCase>();
-		services.AddScoped<IDeleteTicketUseCase, DeleteTicketUseCase>();
-		services.AddScoped<IUpdateTicketUseCase, UpdateTicketUseCase>();
-		services.AddScoped<ICreateUserUseCase, CreateUserUseCase>();
-		services.AddScoped<ISignInUserUseCase, SignInUserUseCase>();
-		services.AddScoped<IListUsersUseCase, ListUsersUseCase>();
-	}
+  private static void AddUseCases(this IServiceCollection services)
+  {
+    services.AddScoped<ICreateTicketUseCase, CreateTicketUseCase>();
+    services.AddScoped<IListTicketsUseCase, ListTicketsUseCase>();
+    services.AddScoped<IListTicketByIdUseCase, ListTicketByIdUseCase>();
+    services.AddScoped<IDeleteTicketUseCase, DeleteTicketUseCase>();
+    services.AddScoped<IUpdateTicketUseCase, UpdateTicketUseCase>();
+    services.AddScoped<ICreateUserUseCase, CreateUserUseCase>();
+    services.AddScoped<ISignInUserUseCase, SignInUserUseCase>();
+    services.AddScoped<IListUsersUseCase, ListUsersUseCase>();
+  }
 }

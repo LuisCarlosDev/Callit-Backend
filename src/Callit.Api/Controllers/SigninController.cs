@@ -5,20 +5,20 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Callit.Api.Controllers;
 
-[Route("api/[controller]")]
+[Route("api/v1/signin")]
 [ApiController]
 public class SigninController : ControllerBase
 {
-    [HttpPost]
-    [ProducesResponseType(typeof(ResponseCreatedUserJson), StatusCodes.Status200OK)]
-    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status401Unauthorized)]
-    public async Task<IActionResult> SignIn(
-        [FromServices] ISignInUserUseCase useCase,
-        [FromBody] RequestSignInJson request
-    )
-    {
-        var user = await useCase.Execute(request);
+  [HttpPost]
+  [ProducesResponseType(typeof(ResponseCreatedUserJson), StatusCodes.Status200OK)]
+  [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status401Unauthorized)]
+  public async Task<IActionResult> SignIn(
+    [FromServices] ISignInUserUseCase useCase,
+    [FromBody] RequestSignInJson request
+  )
+  {
+    var user = await useCase.Execute(request);
 
-        return Ok(user);
-    }
+    return Ok(user);
+  }
 }

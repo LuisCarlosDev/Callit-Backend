@@ -10,3 +10,15 @@ C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Communication\obj\Debug\net9.
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Communication\obj\Debug\net9.0\Callit.Communication.pdb
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Communication\obj\Debug\net9.0\ref\Callit.Communication.dll
 C:\Users\Luiz Silva\dev\projects\Callit\src\Callit.Communication\obj\Debug\net9.0\Callit.Communication.sourcelink.json
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\bin\Debug\net9.0\Callit.Communication.deps.json
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\bin\Debug\net9.0\Callit.Communication.dll
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\bin\Debug\net9.0\Callit.Communication.pdb
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\obj\Debug\net9.0\Callit.Communication.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\obj\Debug\net9.0\Callit.Communication.AssemblyInfoInputs.cache
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\obj\Debug\net9.0\Callit.Communication.AssemblyInfo.cs
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\obj\Debug\net9.0\Callit.Communication.csproj.CoreCompileInputs.cache
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\obj\Debug\net9.0\Callit.Communication.sourcelink.json
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\obj\Debug\net9.0\Callit.Communication.dll
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\obj\Debug\net9.0\refint\Callit.Communication.dll
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\obj\Debug\net9.0\Callit.Communication.pdb
+c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Communication\obj\Debug\net9.0\ref\Callit.Communication.dll
