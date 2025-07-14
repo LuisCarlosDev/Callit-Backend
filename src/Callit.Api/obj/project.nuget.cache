@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0aB01hJDG1M=",
+  "dgSpecHash": "MZEzL/gcwVE=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Api\\Callit.Api.csproj",
+  "projectFilePath": "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Api\\Callit.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luiz Silva\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Luiz Silva\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\Callit.Exception.csproj": {}
+    "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\Callit.Exception.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\Callit.Exception.csproj": {
+    "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\Callit.Exception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\Callit.Exception.csproj",
+        "projectUniqueName": "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\Callit.Exception.csproj",
         "projectName": "Callit.Exception",
-        "projectPath": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\Callit.Exception.csproj",
+        "projectPath": "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\Callit.Exception.csproj",
         "packagesPath": "C:\\Users\\Luiz Silva\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\obj\\",
+        "outputPath": "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Exception\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

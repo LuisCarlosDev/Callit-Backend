@@ -1037,8 +1037,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Domain\\Callit.Domain.csproj": {
-              "projectPath": "c:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Domain\\Callit.Domain.csproj"
+            "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Domain\\Callit.Domain.csproj": {
+              "projectPath": "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Domain\\Callit.Domain.csproj"
             }
           }
         }
