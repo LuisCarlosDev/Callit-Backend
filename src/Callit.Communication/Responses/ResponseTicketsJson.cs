@@ -4,5 +4,5 @@ namespace Callit.Communication.Responses;
 
 public class ResponseTicketsJson
 {
-	public List<ResponseShortTicketJson> Tickets { get; set; } = [];
+  public List<ResponseShortTicketJson> Tickets { get; set; } = [];
 }

@@ -10,24 +10,27 @@ namespace Callit.Infrastructure.Services.LoggedUser;
 
 public class LoggedUser : ILoggedUser
 {
-	private readonly CallitDbContext _dbContext;
-	private readonly ITokenProvider _tokenProvider;
-	
-	public LoggedUser(CallitDbContext dbContext, ITokenProvider tokenProvider) {
-		_dbContext = dbContext;
-		_tokenProvider = tokenProvider;
-	}
-	
-	public async Task<User> GetUser()
-	{
-		string token = _tokenProvider.TokenOnRequest();
+  private readonly CallitDbContext _dbContext;
+  private readonly ITokenProvider _tokenProvider;
 
-		var tokenHandler = new JwtSecurityTokenHandler();
+  public LoggedUser(CallitDbContext dbContext, ITokenProvider tokenProvider)
+  {
+    _dbContext = dbContext;
+    _tokenProvider = tokenProvider;
+  }
 
-		var jwtSecurityToken = tokenHandler.ReadJwtToken(token);
+  public async Task<User> GetUser()
+  {
+    string token = _tokenProvider.TokenOnRequest();
 
-		var identifier = jwtSecurityToken.Claims.First(claim => claim.Type == ClaimTypes.Sid).Value;
+    var tokenHandler = new JwtSecurityTokenHandler();
 
-		return await _dbContext.Users.AsNoTracking().FirstAsync(user => user.UserIdentifier == Guid.Parse(identifier));
-	}
+    var jwtSecurityToken = tokenHandler.ReadJwtToken(token);
+
+    var identifier = jwtSecurityToken.Claims.First(claim => claim.Type == ClaimTypes.Sid).Value;
+
+    return await _dbContext
+      .Users.AsNoTracking()
+      .FirstAsync(user => user.UserIdentifier == Guid.Parse(identifier));
+  }
 }

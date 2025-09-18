@@ -5,5 +5,5 @@ namespace Callit.Application.UseCases.Users.CreateUser;
 
 public interface ICreateUserUseCase
 {
-    Task<ResponseCreatedUserJson> Execute(RequestUserJson request);
+  Task<ResponseCreatedUserJson> Execute(RequestUserJson request);
 }

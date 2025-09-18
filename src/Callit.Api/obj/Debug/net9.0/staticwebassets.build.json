@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "12F9vIkztr7t3XM1zXzGp+74ZkLRxm0/VKwbrk/KPP4=",
-  "Source": "Callit.Api",
-  "BasePath": "_content/Callit.Api",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"dx2eiBfBEZ0/q5GVrBgdncmvY+jwTdP3qOivaI89sak=","Source":"Callit.Api","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

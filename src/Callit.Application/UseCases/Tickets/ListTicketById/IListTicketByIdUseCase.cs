@@ -5,5 +5,5 @@ namespace Callit.Application.UseCases.Tickets.ListTicketById;
 
 public interface IListTicketByIdUseCase
 {
-    Task<ResponseTicketJson> Execute(Guid id);
+  Task<ResponseTicketJson> Execute(Guid id);
 }

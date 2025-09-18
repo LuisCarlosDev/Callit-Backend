@@ -8,34 +8,34 @@ namespace Callit.Application.UseCases.Tickets.DeleteTicket;
 
 public class DeleteTicketUseCase : IDeleteTicketUseCase
 {
-    private readonly ITicketRepository _ticketRepository;
-    private readonly IUnitOfWork _unitOfWork;
-    private readonly ILoggedUser _loggedUser;
+  private readonly ITicketRepository _ticketRepository;
+  private readonly IUnitOfWork _unitOfWork;
+  private readonly ILoggedUser _loggedUser;
 
-    public DeleteTicketUseCase(
-        ITicketRepository repository,
-        IUnitOfWork unitOfWork,
-        ILoggedUser loggedUser
-    )
+  public DeleteTicketUseCase(
+    ITicketRepository repository,
+    IUnitOfWork unitOfWork,
+    ILoggedUser loggedUser
+  )
+  {
+    _ticketRepository = repository;
+    _unitOfWork = unitOfWork;
+    _loggedUser = loggedUser;
+  }
+
+  public async Task Execute(Guid id)
+  {
+    var loggedUser = await _loggedUser.GetUser();
+
+    var ticket = await _ticketRepository.SearchTicketById(id, loggedUser);
+
+    if (ticket is null)
     {
-        _ticketRepository = repository;
-        _unitOfWork = unitOfWork;
-        _loggedUser = loggedUser;
+      throw new NotFoundException("Ticket not found");
     }
 
-    public async Task Execute(Guid id)
-    {
-        var loggedUser = await _loggedUser.GetUser();
+    await _ticketRepository.DeleteTicket(id);
 
-        var ticket = await _ticketRepository.SearchTicketById(id, loggedUser);
-
-        if (ticket is null)
-        {
-            throw new NotFoundException("Ticket not found");
-        }
-
-        await _ticketRepository.DeleteTicket(id);
-
-        await _unitOfWork.Commit();
-    }
+    await _unitOfWork.Commit();
+  }
 }

@@ -4,5 +4,5 @@ namespace Callit.Domain.Security.Tokens;
 
 public interface IAccessTokenGenerator
 {
-	string GenerateAccessToken(User user);
+  string GenerateAccessToken(User user);
 }

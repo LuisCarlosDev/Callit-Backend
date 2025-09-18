@@ -2,5 +2,5 @@
 
 public interface IDeleteTicketUseCase
 {
-    Task Execute(Guid id);
+  Task Execute(Guid id);
 }

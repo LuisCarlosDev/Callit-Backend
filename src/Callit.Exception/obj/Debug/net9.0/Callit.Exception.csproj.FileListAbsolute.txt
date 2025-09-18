@@ -26,3 +26,17 @@ c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0
 c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\refint\Callit.Exception.dll
 c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.pdb
 c:\Users\Luiz Silva\dev\www\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\ref\Callit.Exception.dll
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\bin\Debug\net9.0\Callit.Exception.deps.json
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\bin\Debug\net9.0\Callit.Exception.dll
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\bin\Debug\net9.0\Callit.Exception.pdb
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.ExceptionBase.ResourceErrorMessages.resources
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.csproj.GenerateResource.cache
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.AssemblyInfoInputs.cache
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.AssemblyInfo.cs
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.csproj.CoreCompileInputs.cache
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.sourcelink.json
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.dll
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\refint\Callit.Exception.dll
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\Callit.Exception.pdb
+C:\Users\Luiz Silva\dev\www\projects\Callit-Backend\src\Callit.Exception\obj\Debug\net9.0\ref\Callit.Exception.dll

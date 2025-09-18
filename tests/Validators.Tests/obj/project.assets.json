@@ -1367,11 +1367,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\tests\\Validators.Tests\\Validators.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Luiz Silva\\dev\\www\\projects\\Callit-Backend\\tests\\Validators.Tests\\Validators.Tests.csproj",
       "projectName": "Validators.Tests",
-      "projectPath": "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\tests\\Validators.Tests\\Validators.Tests.csproj",
+      "projectPath": "C:\\Users\\Luiz Silva\\dev\\www\\projects\\Callit-Backend\\tests\\Validators.Tests\\Validators.Tests.csproj",
       "packagesPath": "C:\\Users\\Luiz Silva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\tests\\Validators.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Luiz Silva\\dev\\www\\projects\\Callit-Backend\\tests\\Validators.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1392,8 +1392,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Application\\Callit.Application.csproj": {
-              "projectPath": "C:\\Users\\Luiz Silva\\dev\\www\\Callit-Backend\\src\\Callit.Application\\Callit.Application.csproj"
+            "C:\\Users\\Luiz Silva\\dev\\www\\projects\\Callit-Backend\\src\\Callit.Application\\Callit.Application.csproj": {
+              "projectPath": "C:\\Users\\Luiz Silva\\dev\\www\\projects\\Callit-Backend\\src\\Callit.Application\\Callit.Application.csproj"
             }
           }
         }
@@ -1408,7 +1408,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -1447,7 +1447,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.1.25451.107/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
